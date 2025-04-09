@@ -9,22 +9,22 @@ Eğitim sürecinde öğrendiğim temel konuları, teknolojileri ve yazılım gel
 
 ### 📂 Kategoriler Ekranı
 <p align="center">
-  <img src="Images/categories.png" alt="Kategoriler Ekranı" width="700"/>
+  <img src="MvcStok/Images/categories.png" alt="Kategoriler Ekranı" width="700"/>
 </p>
 
 ### 📦 Ürünler Ekranı
 <p align="center">
-  <img src="Images/products.png" alt="Ürünler Ekranı" width="700"/>
+  <img src="MvcStok/Images/products.png" alt="Ürünler Ekranı" width="700"/>
 </p>
 
 ### ➕ Ürün Ekleme Ekranı
 <p align="center">
-  <img src="Images/add-product.png" alt="Ürün Ekleme Ekranı" width="700"/>
+  <img src="MvcStok/Images/add-product.png" alt="Ürün Ekleme Ekranı" width="700"/>
 </p>
 
 ### 💰 Satış Yapma Ekranı
 <p align="center">
-  <img src="Images/sales.png" alt="Satış Yapma Ekranı" width="700"/>
+  <img src="MvcStok/Images/sales.png" alt="Satış Yapma Ekranı" width="700"/>
 </p>
 
 ## Proje Hakkında 🚀
