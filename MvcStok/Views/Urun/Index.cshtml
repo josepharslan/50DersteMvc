@@ -1,0 +1,47 @@
+﻿@using MvcStok.Models.Entity
+@model List<TBLURUNLER>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<table id="tblurun" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ÜRÜN ID</th>
+            <th>MARKASI</th>
+            <th>ÜRÜN ADI</th>
+            <th>KATEGORİ</th>
+            <th>FİYAT</th>
+            <th>KALAN STOK</th>
+            <th>İŞLEMLER</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var urn in Model)
+        {
+            <tr>
+                <th>@urn.URUNID</th>
+                <td>@urn.MARKA</td>
+                <td>@urn.URUNAD</td>
+                <td>@urn.TBLKATEGORILER.KATEGORIAD</td>
+                <td>@urn.FIYAT</td>
+                <td>@urn.STOK</td>
+                <td style="width: 1%; white-space: nowrap;">
+                    <a href="/URUN/SIL/@urn.URUNID" class="btn btn-danger"><i class="bi bi-trash-fill"></i> SİL</a>
+                    <a href="/URUN/UrunGetir/@urn.URUNID" class="btn btn-warning"><i class="bi bi-pencil-square"></i> GÜNCELLE</a>
+                </td>
+            </tr>
+
+        }
+    </tbody>
+</table>
+<a href="/URUN/UrunEkle/" class="btn btn-primary"><i class="bi bi-plus-square-fill"></i> YENİ ÜRÜN EKLE</a>
+
+
+<link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css" />
+<script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
+
+<script>
+    $('#tblurun').DataTable();
+</script>
