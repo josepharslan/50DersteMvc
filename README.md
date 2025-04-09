@@ -2,7 +2,7 @@
 
 Merhaba! 👋
 
-Bu repository, Murat Yücedağ'ın YouTube üzerinde yayınladığı _"50 Derste MVC"_ derslerini içermektedir.  
+Ben Yusuf Arslan. Bu repository, Murat Yücedağ'ın YouTube üzerinde yayınladığı _"50 Derste MVC"_ derslerini içermektedir.  
 Eğitim sürecinde öğrendiğim temel konuları, teknolojileri ve yazılım geliştirme yaklaşımlarını uygulamalı olarak burada bir araya getirdim.
 
 ## Proje Görselleri 📸
