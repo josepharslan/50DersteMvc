@@ -19,7 +19,7 @@ Eğitim sürecinde öğrendiğim temel konuları, teknolojileri ve yazılım gel
 
 ### ➕ Ürün Ekleme Ekranı
 <p align="center">
-  <img src="MvcStok/Images/add-product.png" alt="Ürün Ekleme Ekranı" width="700"/>
+  <img src="MvcStok/Images/add-products.png" alt="Ürün Ekleme Ekranı" width="700"/>
 </p>
 
 ### 💰 Satış Yapma Ekranı
